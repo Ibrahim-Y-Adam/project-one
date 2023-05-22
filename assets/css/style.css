@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,39 @@ body {
     color: #3a3a3a;
 }
 
-#header {
-    
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav h1 {
+    font-size: 295%;
+    color: #3a3a3a;
+    letter-spacing: 4px;
+    list-style: none;
+}
+
+nav small {
+    font-size: 120%;
+    color: #3a3a3a;
+    letter-spacing: 4px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 18px;
 }
