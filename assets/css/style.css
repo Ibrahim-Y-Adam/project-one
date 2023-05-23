@@ -90,9 +90,11 @@ nav ul li a:hover::after {
     letter-spacing: 2px;
 }
 
-.header-text, .header-text h1 {
+.header-text,
+.header-text h1 {
     line-height: 75px;
 }
+
 .header-text h1 {
     font-size: 50px;
 }
@@ -117,4 +119,65 @@ nav ul li a:hover::after {
 
 .hero-button a:hover {
     background-color: rgb(83, 83, 87);
+}
+
+/* Services section */
+
+#services {
+    height: 600px;
+}
+
+.services-header {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+#services {
+    padding: 20px 30px;
+    color: #3a3a3a;
+    margin-right: 30px;
+}
+
+.service-container {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.service-container h3 {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+
+.service-container p {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    line-height: 1.45;
+    padding-bottom: 20px;
+}
+
+.service-container a {
+    color: #3a3a3a;
+    text-decoration: none;
+    list-style: none;
+}
+
+.service-container span a {
+    color: #0672ba;
+}
+
+.service-container span a:hover {
+    border-bottom: 1px solid #0672ba;
 }
