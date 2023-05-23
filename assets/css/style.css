@@ -124,7 +124,7 @@ nav ul li a:hover::after {
 /* Services section */
 
 #services {
-    height: 600px;
+    height: 550px;
 }
 
 .services-header {
@@ -183,6 +183,12 @@ nav ul li a:hover::after {
     border-bottom: 1px solid #0672ba;
 }
 
+.aSeparator {
+    border-bottom: 1px solid #c1ced9;
+    width: 95%;
+    margin: 40px 50px;
+    
+}
 
 /* about Abdikarim */
 
@@ -202,4 +208,13 @@ nav ul li a:hover::after {
     line-height: 1.45;
     padding: 30px 80px;
     text-align: justify;
+}
+
+.about-me a {
+    text-decoration: none;
+    color: #0672ba;
+}
+
+.about-me a:hover {
+    border-bottom: 1px solid #0672ba;
 }
