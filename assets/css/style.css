@@ -130,7 +130,7 @@ nav ul li a:hover::after {
 .services-header {
     color: #3a3a3a;
     font-family: Ubuntu, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding-top: 50px;
     letter-spacing: 4px;
@@ -162,10 +162,11 @@ nav ul li a:hover::after {
 
 .service-container p {
     color: #3a3a3a;
-    font-family: Ubuntu, sans-serif;
-    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
     line-height: 1.45;
-    padding-bottom: 20px;
+    padding: 20px 40px;
+    text-align: justify;
 }
 
 .service-container a {
@@ -180,4 +181,32 @@ nav ul li a:hover::after {
 
 .service-container span a:hover {
     border-bottom: 1px solid #0672ba;
+}
+
+/* .aSeparator {
+    border-bottom: 4px solid #abb8c3;
+    width: 95%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* about Abdikarim */
+
+.about-me {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.about-me p {
+    color: #3a3a3a;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    line-height: 1.45;
+    padding: 30px 80px;
+    text-align: justify;
 }
