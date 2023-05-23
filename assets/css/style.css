@@ -187,7 +187,6 @@ nav ul li a:hover::after {
     border-bottom: 1px solid #c1ced9;
     width: 95%;
     margin: 40px 50px;
-    
 }
 
 /* about Abdikarim */
@@ -217,4 +216,31 @@ nav ul li a:hover::after {
 
 .about-me a:hover {
     border-bottom: 1px solid #0672ba;
+}
+
+
+/* contact section */
+
+#contact {
+    height: 600px;
+    text-align: center;
+    line-height: 75px;
+}
+
+#contact h3 {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+#contact a {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Ubuntu, sans-serif;
+    color: #0672ba;
 }
