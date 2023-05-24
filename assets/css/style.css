@@ -124,7 +124,7 @@ nav ul li a:hover::after {
 /* Services section */
 
 #services {
-    height: 550px;
+    height: 600px;
 }
 
 .services-header {
@@ -297,10 +297,133 @@ form textarea {
     margin-top: -20px;
 }
 
+/* footer */
+
 footer {
-    width: 100%;
-    height: 500px;
-    position: absolute;
+    margin: 5%;
+    height: 100px;
     bottom: 0;
-    background-color: rgba(6,114,186,0.87);
+}
+
+footer h3 {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+
+.row ul li {
+    list-style: none;
+    color: #0672ba;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    letter-spacing: 4px;
+    display: inline;
+    line-height: 75px;
+}
+
+.col {
+    margin-top: 5%;
+}
+.col h3 {
+    display: inline;
+    margin-right: 25%;
+}
+
+
+
+
+/* css for small screen */
+
+@media screen and (max-width: 1200px) {
+
+    nav h1 {
+        font-size: 20px;
+    }
+
+    .nav small {
+        font-size: 10px;
+    }
+    
+    nav ul li {
+        display: inline;
+        font-size: 8px;
+        margin: 5px 10px;
+    }
+
+    #hero-image{
+    height: 500px;
+    width: 100%;
+    background: url(../images/small-img.jfif);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .header-text h1 {
+        padding-top: 50px;
+        padding-left: 20px;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .header-text {
+        padding-top: 50px;
+        padding-left: 20px;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .hero-button {
+        font-size: 20px;
+    }
+
+    #services {
+        height: 900px;
+    }
+
+    .service-container {
+        height: 600px;
+        display: inline;
+        margin-bottom: 30px;
+    }
+
+    .services-header {
+        font-size: 10px;
+    }
+
+    .service-container h3 {
+        padding-top: 3%;
+        font-size: 15px;
+    }
+
+    .service-container i {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .service-container p {
+        font-size: 14px;
+    }
+
+    .service-container span {
+        font-size: 15px;
+    }
+
+    .about-me h2 {
+        font-size: 15px;
+    }
+
+    .about-me-p {
+        font-size: 15px;
+        height: 200px;
+        width: 90%;
+        border: 1px solid #565151;
+        padding: 0.5rem;
+        margin: 1.5rem 0 0 15px;
+        overflow: scroll;        
+    }
+    
 }
