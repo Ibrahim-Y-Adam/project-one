@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Ubuntu:wght@300;500&display=swap');
 
 * {
     margin: 0;
@@ -222,7 +222,6 @@ nav ul li a:hover::after {
 /* contact section */
 
 #contact {
-    height: 600px;
     text-align: center;
     line-height: 75px;
 }
@@ -297,8 +296,7 @@ form textarea {
 /* footer */
 
 #footer-container {
-    height: 400px;
-    position: relative;
+    height: 100px;
 }
 
 footer {
@@ -306,28 +304,12 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #504e4e;
     height: auto;
     width: 100vw;
-    font-family: Ubuntu, sans-serif;
+    font-family: Lato, sans-serif;
     padding-top: 40px;
     color: #fff;
-}
-
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h3 {
-    font-size: 25px;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 75px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .socials {
@@ -335,16 +317,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .socials li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .socials a {
     text-decoration: none;
     color: #fff;
+    padding-top: 5px 0;
 }
 
 .socials a li {
@@ -361,6 +344,49 @@ footer {
     width: 100vw;
     padding: 20px 0;
     text-align: center;
+}
+
+/* contact page */
+
+.contact-header h3 {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #0672ba;
+    max-width: 35%;
+    margin: auto;
+}
+
+.contact-p {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contact-address {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.map-address iframe {
+    margin-left: 430px;
+    width: 40%;
 }
 
 
