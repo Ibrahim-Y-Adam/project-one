@@ -251,7 +251,6 @@ nav ul li a:hover::after {
 
 img {
     max-width: 100%;
-    max-width: 100%;
 }
 
 .contact-left {
@@ -268,8 +267,6 @@ img {
     width: 40%;
 
 }
-
-
 
 form input,
 form textarea {
@@ -299,40 +296,72 @@ form textarea {
 
 /* footer */
 
+#footer-container {
+    height: 400px;
+    position: relative;
+}
+
 footer {
-    margin: 5%;
-    height: 100px;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
+    background: #504e4e;
+    height: auto;
+    width: 100vw;
+    font-family: Ubuntu, sans-serif;
+    padding-top: 40px;
+    color: #fff;
 }
 
-footer h3 {
-    color: #3a3a3a;
-    font-family: Ubuntu, sans-serif;
-    font-size: 25px;
-    padding-top: 50px;
-    letter-spacing: 4px;
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-
-.row ul li {
-    list-style: none;
-    color: #0672ba;
-    font-family: Ubuntu, sans-serif;
+.footer-content h3 {
     font-size: 25px;
-    padding-top: 50px;
-    letter-spacing: 4px;
-    display: inline;
+    font-weight: 500;
+    text-transform: capitalize;
     line-height: 75px;
+    letter-spacing: 2px;
 }
 
-.col {
-    margin-top: 5%;
-}
-.col h3 {
-    display: inline;
-    margin-right: 25%;
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
 
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a li {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover {
+    color: #0672ba;
+}
+
+.footer-bottom {
+    background-color: #302f2f;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
 
 
 
@@ -347,19 +376,19 @@ footer h3 {
     .nav small {
         font-size: 10px;
     }
-    
+
     nav ul li {
         display: inline;
         font-size: 8px;
         margin: 5px 10px;
     }
 
-    #hero-image{
-    height: 500px;
-    width: 100%;
-    background: url(../images/small-img.jfif);
-    background-size: cover;
-    background-position: center;
+    #hero-image {
+        height: 500px;
+        width: 100%;
+        background: url(../images/small-img.jfif);
+        background-size: cover;
+        background-position: center;
     }
 
     .header-text h1 {
@@ -423,7 +452,29 @@ footer h3 {
         border: 1px solid #565151;
         padding: 0.5rem;
         margin: 1.5rem 0 0 15px;
-        overflow: scroll;        
+        overflow: scroll;
     }
+
+    img {
+        width: 80%;
+    }
+
+    .contact-form {
+        clear: right;
+        display: block;
+    }
+
+    .contact-left {
+        display: inline;
+    }
+
+    .contact-right {
+        left: 65px;
+        width: 80%;
+        display: inline-block;
+    }
+
     
+
+
 }
