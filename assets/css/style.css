@@ -184,11 +184,11 @@ nav ul li a:hover::after {
 }
 
 .aSeparator {
-    border-top-width: 3px;
+    border-top-width: 1px;
     border-top-style: solid;
     border-top-color: #cbc6c6;
     width: 95%;
-    margin: 40px 50px;
+    margin: 10px 1px;
 }
 
 /* about Abdikarim */
