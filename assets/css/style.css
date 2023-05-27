@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: whitesmoke;
     color: #3a3a3a;
@@ -276,7 +279,7 @@ form textarea {
     outline: none;
     background: rgb(223, 223, 225);
     padding: 15px;
-    margin: 15px 0px;
+    margin: 10px 0px;
     color: #0672ba;
     font-size: 18px;
     border-radius: 6px;
@@ -298,7 +301,7 @@ form textarea {
     background: #0672ba;
     letter-spacing: 2px;
     display: flex;
-    margin-top: -20px;
+    margin-top: -40px;
     cursor: pointer;
 }
 
@@ -393,6 +396,7 @@ footer {
     margin-bottom: 30px;
 }
 .map-address {
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
@@ -404,6 +408,7 @@ footer {
 }
 
 .contact-us {
+    padding: 15px;
     margin: auto auto;
 }
 
@@ -439,6 +444,7 @@ footer {
 /* services page */
 
 .service-title {
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -483,7 +489,7 @@ footer {
     #hero-image {
         height: 500px;
         width: 100%;
-        background: url(../images/small-img.jfif);
+        background: url(../images/small-image.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -538,6 +544,10 @@ footer {
         font-size: 15px;
     }
 
+    #about {
+        height: 1200px;
+    }
+
     .about-me h2 {
         font-size: 15px;
     }
@@ -546,10 +556,8 @@ footer {
         font-size: 15px;
         height: 200px;
         width: 90%;
-        border: 1px solid #565151;
         padding: 0.5rem;
         margin: 1.5rem 0 0 15px;
-        overflow: scroll;
     }
 
     img {
@@ -557,8 +565,8 @@ footer {
     }
 
     .contact-form {
-        clear: right;
         display: block;
+        justify-content: center;
     }
 
     .contact-left {
@@ -566,9 +574,9 @@ footer {
     }
 
     .contact-right {
-        left: 65px;
-        width: 80%;
-        display: inline-block;
+        padding: 15px;
+       display: inline;
+       align-items: center;
     }
 
     .footer-bottom {
