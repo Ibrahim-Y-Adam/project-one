@@ -282,6 +282,12 @@ form textarea {
     border-radius: 6px;
 }
 
+.form-textarea {
+    resize: vertical;
+    min-height: 30px;
+    max-height: 50px;
+}
+
 .btn {
     border: none;
     border-radius: 5px;
@@ -386,11 +392,11 @@ footer {
     font-weight: 300;
     margin-bottom: 30px;
 }
-
-.map-address iframe {
-    margin-left: 430px;
-    width: 40%;
+.map-address {
+    display: flex;
+    justify-content: center;
 }
+
 
 .contact-forms {
     display: flex;
@@ -579,7 +585,6 @@ footer {
 
     
 .map-address iframe {
-    margin-left: 30px;
     width: 100%;
     
 }
