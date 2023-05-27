@@ -37,4 +37,18 @@ Here you can find Accounting, Personal Tax and Bookkeeping.
         * About - leads to the Accountant page.
         * Services - leads to the services page
         * Contact - leads to the contact form page
+    * The link of the page that the user currently on is colored.
+    * The links have animated underline effect.
+    * The navigation is clear and easy to understand.
 
+    ![hero-image](screenshots/navbar.png)
+
+* Hero Section
+
+    * Hero section have a background image.
+    * Hero section shows a title and a button in the middle of the screen.
+        * It has the name of the company
+        * It tells the user what the company is offering.
+        * It shows a button that can be clicked, and leads to the contact form page.
+
+            ![hero-image](screenshots/Screenshot-hero-title.png)
