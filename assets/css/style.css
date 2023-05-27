@@ -251,6 +251,7 @@ nav ul li a:hover::after {
 
 .contact-form {
     display: flex;
+    margin-bottom: 50px;
 }
 
 img {
@@ -301,7 +302,6 @@ form textarea {
     background: #0672ba;
     letter-spacing: 2px;
     display: flex;
-    margin-top: -40px;
     cursor: pointer;
 }
 
@@ -404,7 +404,7 @@ footer {
 
 .contact-forms {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .contact-us {
@@ -445,6 +445,7 @@ footer {
 
 .service-title {
     padding: 10px;
+    margin-bottom: 100px;
     box-sizing: border-box;
 }
 
@@ -567,6 +568,7 @@ footer {
     .contact-form {
         display: block;
         justify-content: center;
+        margin-bottom: 50px;
     }
 
     .contact-left {
@@ -574,7 +576,7 @@ footer {
     }
 
     .contact-right {
-        padding: 15px;
+    padding: 15px;
        display: inline;
        align-items: center;
     }
