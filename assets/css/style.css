@@ -293,6 +293,7 @@ form textarea {
     letter-spacing: 2px;
     display: flex;
     margin-top: -20px;
+    cursor: pointer;
 }
 
 /* footer */
@@ -410,6 +411,47 @@ footer {
     background: #0672ba;
     letter-spacing: 2px;
     display: flex;
+    cursor: pointer;
+}
+
+/* thank you page */
+
+.thanks-header {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+.thanks-header h1 {
+    font-size: 50px;
+    color: green;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* services page */
+
+.service-header {
+    box-sizing: border-box;
+}
+
+.service-header h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.service-header h4 {
+    margin-left: 200px;
+}
+
+.service-header p {
+    margin: 10px 200px;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 
