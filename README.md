@@ -123,5 +123,6 @@ Here you can find Accounting, Personal Tax and Bookkeeping.
 ##### Validator testing
 
 * HTML 
-    * No errors or
+    * No errors or warnings were found when passing through the official W3C validator.
+* CSS 
 
