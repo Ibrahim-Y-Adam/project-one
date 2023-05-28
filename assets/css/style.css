@@ -404,12 +404,15 @@ footer {
 
 .contact-forms {
     display: flex;
+    justify-content: center;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 .contact-us {
     padding: 15px;
-    margin: auto auto;
+    display: flex;
+    text-align: center;
 }
 
 .btn2 {
@@ -546,7 +549,7 @@ footer {
     }
 
     #about {
-        height: 1200px;
+        height: 1400px;
     }
 
     .about-me h2 {
@@ -555,10 +558,6 @@ footer {
 
     .about-me-p {
         font-size: 15px;
-        height: 200px;
-        width: 90%;
-        padding: 0.5rem;
-        margin: 1.5rem 0 0 15px;
     }
 
     img {
@@ -585,6 +584,10 @@ footer {
         font-size: 10px;
     }
 
+    .service-title {
+        padding: 5px 15px;
+    }
+
     .service-title p {
         margin: 5px 5px;
     }
@@ -600,4 +603,22 @@ footer {
 }
 
 
+}
+
+/* css for small screen sizes */
+
+@media screen and (max-width: 650px) {
+    #about {
+        height: 2000px;
+    }
+
+    .about-me-p {
+        font-size: 10px;
+    }
+
+    #services {
+        height: 1200px;
+    }
+
+    
 }
