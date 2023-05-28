@@ -120,5 +120,8 @@ Here you can find Accounting, Personal Tax and Bookkeeping.
     * None.
 ***
 
+##### Validator testing
 
+* HTML 
+    * No errors or
 
