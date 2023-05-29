@@ -286,7 +286,7 @@ form textarea {
     border-radius: 6px;
 }
 
-.form-textarea {
+.form textarea {
     resize: vertical;
     min-height: 30px;
     max-height: 50px;
@@ -319,7 +319,6 @@ footer {
     height: auto;
     width: 100vw;
     font-family: Lato, sans-serif;
-    padding-top: 40px;
     color: #fff;
     letter-spacing: 4px;
 }
@@ -548,9 +547,7 @@ footer {
         font-size: 15px;
     }
 
-    #about {
-        height: 1400px;
-    }
+   
 
     .about-me h2 {
         font-size: 15px;
@@ -568,6 +565,7 @@ footer {
         display: block;
         justify-content: center;
         margin-bottom: 50px;
+        padding: 0 15px;
     }
 
     .contact-left {
