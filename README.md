@@ -9,7 +9,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 ***
 #### Technologies used
 
-* HTMLL
+* HTML
 * CSS
 * Font Awesome icons
 * Google fonts
@@ -20,7 +20,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 
 * As a first-time visitor, I want to understand the website and finding more about the Accountant.
 
-* As a first-time visitor, I want easily navigate through the website. So I can find the information I am looking for.
+* As a first-time visitor, I want easily navigate through the website, so I can find the information I am looking for.
 
 * As a first-time visitor, I want to see the information about the services. So I can learn more about them.
 
@@ -70,6 +70,16 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 
 ***
 
+* Services
+    * This section contains all the service that the company is providing which are: 
+        * Accounting.
+        * Personal Tax.
+        * Bookkeeping.
+        ![Services image](screenshots/screenshot-servicing.png) 
+
+
+***
+
 * Let's Talk section
     * Let's Talk section has a background image and a form.
     * The form has three elements:
@@ -107,12 +117,15 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 
 ***
 
-* Testing
-    * I tested that the website works in all browsers: Chrome, Microsoft Edge, and Firefox.
-    * I used devtools to confirm that the website is responsive, looks, and functions as it is supposed to on all standard screen sizes. 
-    * I tested all the links and confirmed that all of them are working and leading where they are supposed to.
+##### Testing
 
-* Bugs 
+
+* I tested that the website works in all browsers: Chrome, Microsoft Edge, and Firefox.
+* I used devtools to confirm that the website is responsive, looks, and functions as it is supposed to on all standard screen sizes.
+* I tested all the links and confirmed that all of them are working and leading where they are supposed to.
+
+##### Bugs
+* Solved bugs
     * I found out that on mobile devices, the image and form on the contact page are not vertically centered as I supposed.
     * I fixed it, by using the CSS property display flex and adjected the height.
 
@@ -126,9 +139,11 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 
 * HTML 
     * No errors or warnings were found when passing through the official W3C validator.
+    ![Html validator](screenshots/screenshot-html.png)
 
 * CSS
     * No errors or warnings were found when passing through the official W3C CSS Validator.
+    ![CSS Validator](screenshots/creenshot-css.png)
 * Accessibility and Performance
     * Using lighthouse in devtools, I confirmed that the website is performing well, and accessible, and the colors and fonts chosen are readable.
 
@@ -145,7 +160,8 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 * Content 
     * The code to make social media links is taken from the Code Institute Love Running project and modified to fit my website.
 
-* All the images for the website are taken from [Unplash](https://unsplash.com/)
+* Media
+    * All the images for the website are taken from [Unplash](https://unsplash.com/)
 
 ***
 
