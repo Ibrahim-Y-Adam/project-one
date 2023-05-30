@@ -88,7 +88,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
         * it has a textarea box
         * it has a submit button.
 
-    ![contact form image](screenshots/Screenshot-let-talk.png)
+    ![contact form image](screenshots/screenshot-let-talk.png)
 
 ***
 
@@ -98,7 +98,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
     * Social media links are animated on hover.
     * Under the social media links. There is a copyright sign with the website title.
 
-    ![Fotoer image](screenshots/Screenshot-footer.png)
+    ![Fotoer image](screenshots/screenshot-footer.png)
 
 ***
 
@@ -112,8 +112,8 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
     * The page is responsive and looks good on all usual screen sizes.
     * Submitting the form leads to the hidden response page that contains thank you message.
 
-    ![Contact Page Image](screenshots/Screenshot-contact-page.png)
-    ![Thanks Page Image](screenshots/Screenshot-thanks-img.png)
+    ![Contact Page Image](screenshots/screenshot-contact-page.png)
+    ![Thanks Page Image](screenshots/screenshot-thanks-img.png)
 
 ***
 
@@ -147,7 +147,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 * Accessibility and Performance
     * Using lighthouse in devtools, I confirmed that the website is performing well, and accessible, and the colors and fonts chosen are readable.
 
-    ![Performance Image](screenshots/Screenshot-performance-img.png)
+    ![Performance Image](screenshots/screenshot-performance-img.png)
 
 ***
 
@@ -166,6 +166,6 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 ***
 
 ##### Wireframes
-![Wireframes](screenshots/Wireframe.png)
+![Wireframes](screenshots/wireframe.png)
 
 
