@@ -94,12 +94,16 @@ nav ul li a:hover::after {
 }
 
 .header-text,
-.header-text h1 {
+.header-text h2 {
     line-height: 75px;
 }
 
-.header-text h1 {
-    font-size: 50px;
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text p {
+    font-size: 35px;
 }
 
 .hero-button {
@@ -286,10 +290,10 @@ form textarea {
     border-radius: 6px;
 }
 
-.form textarea {
+form textarea {
     resize: vertical;
     min-height: 30px;
-    max-height: 50px;
+    max-height: 200px;
 }
 
 .btn {
@@ -402,7 +406,7 @@ footer {
 
 
 .contact-forms {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     margin-bottom: 100px;
     width: 100%;
@@ -410,8 +414,6 @@ footer {
 
 .contact-us {
     padding: 15px;
-    display: flex;
-    text-align: center;
 }
 
 .btn2 {
@@ -573,9 +575,9 @@ footer {
     }
 
     .contact-right {
-    padding: 15px;
-       display: inline;
-       align-items: center;
+        padding: 15px;
+        display: inline;
+        align-items: center;
     }
 
     .footer-bottom {

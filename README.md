@@ -70,11 +70,11 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
 
 ***
 
-* Services
-    * This section contains all the service that the company is providing which are: 
-        * Accounting.
-        * Personal Tax.
-        * Bookkeeping.
+##### Services
+* This section contains all the service that the company is providing which are:
+    * Accounting.
+    * Personal Tax.
+    * Bookkeeping.
         ![Services image](screenshots/screenshot-servicing.png) 
 
 
