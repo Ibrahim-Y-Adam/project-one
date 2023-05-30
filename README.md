@@ -4,7 +4,7 @@
 
 Here you can find Accounting, Personal Tax, and Bookkeeping.
 
-![hero-image](screenshots/Screenshot-Takaful.png)
+![hero-image](screenshots/screenshot-Takaful.png)
 
 ***
 #### Technologies used
@@ -56,7 +56,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
         * It tells the user what the company is offering.
         * It shows a button you can click and lead you to the contact form page.
 
-            ![hero-image](screenshots/Screenshot-hero-title.png)
+            ![hero-image](screenshots/screenshot-hero-title.png)
 
 ***
 
@@ -66,7 +66,7 @@ Here you can find Accounting, Personal Tax, and Bookkeeping.
     * About section provides information about the Accounting company.
     *About section tells the user why they should consider choosing the accountant for their business.
 
-    ![About Section Image](screenshots/Screenshot-about.png)
+    ![About Section Image](screenshots/screenshot-about.png)
 
 ***
 
