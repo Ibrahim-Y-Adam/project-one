@@ -254,6 +254,7 @@ nav ul li a:hover::after {
 }
 
 .contact-form {
+    justify-content: center;
     display: flex;
     margin-bottom: 50px;
 }
